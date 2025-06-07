@@ -6,7 +6,7 @@ let msgid = document.querySelector("#msg");
 let resetbtn = document.querySelector(".resetbtn");
 let home =document.querySelector(".home");
 home.addEventListener("click",()=>{
-   window.location.href="./0index.html"
+   window.location.href="./index.html"
 })
 const choices = document.querySelectorAll(".section");
 
