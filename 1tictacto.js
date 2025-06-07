@@ -4,7 +4,7 @@ let winnerb = document.querySelector(".winnerb");
 let newgame = document.querySelector(".newgame");
 let home =document.querySelector(".home");
 home.addEventListener("click",()=>{
-   window.location.href="./0index.html"
+   window.location.href="./index.html"
 })
 let msg = document.querySelector("p");
 let turn0 = true;
