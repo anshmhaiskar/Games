@@ -1,0 +1,127 @@
+body {
+  background-color: #0e213f;
+
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  color: #7de2d1;
+}
+.container {
+  margin-top: 20px;
+  height: 60vh;
+  width: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2vmin;
+}
+.winnerb {
+  height: 100vh;
+  width: 75vh;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #a8dadc;
+  font-size: 9vmin;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hide {
+  display: none;
+}
+
+.newgame {
+  height: 8vmin;
+  width: 25vmin;
+  border-radius: 8px;
+  font-size: 3vmin;
+  font-weight: 600;
+}
+.box {
+  height: 18vmin;
+  width: 18vmin;
+  color: #0e213f;
+  font-size: 13vmin;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 1.4vmin;
+
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+}
+.reset {
+  margin-top: 5vmin;
+  height: 8vmin;
+  width: 25vmin;
+  border-radius: 8px;
+  font-size: 3vmin;
+  font-weight: 600;
+}
+@keyframes flash {
+  0% {
+    background-color: rgb(40, 236, 40);
+  }
+  50% {
+    background-color: rgb(34, 222, 228);
+  }
+  100% {
+    background-color: rgb(48, 222, 68);
+  }
+}
+@keyframes flashb {
+  0% {
+    color: #fae4c2;
+  }
+  50% {
+    color: #bc8764;
+  }
+  100% {
+    color: #f4bf98;
+  }
+}
+.home{
+  background-color: #e455ae;
+  font-size: 3vmin;
+ padding-top: 1vmin;
+  color: #0e213f;
+  font-weight: 600;
+  font-family: cambria;
+   height:5vmin;
+   width: 12vmin;
+   border-radius: 1vmin;
+   position: absolute;
+   top: 10%;
+   left: 5%;
+}
+.home:hover {
+   opacity: .8;
+}
+.flash {
+  animation: flash 0.8s ease-in-out 3 alternate;
+}
+.flashb {
+  animation: flashb 0.8s ease-in-out 3 alternate;
+}
+.box:hover {
+  background-color: #bc8764;
+}
+.reset:hover {
+  background-color: #e455ae;
+}
+.newgame:hover {
+  background-color: #f4056e;
+}

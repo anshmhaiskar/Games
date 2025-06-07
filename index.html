@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title><link rel="stylesheet" href="0games.css">
+</head>
+<body> <h1>Games</h1><div class="container">
+    <div class="tictac"> 
+      <div class="ticimg"><img src="ttt.png" alt=""></div>
+        <p>TIC TAC TOE</p>
+          <button id="ticbtn"> play</button>
+    </div>
+    <div class="rps">
+       <div class="rpsimg"><img src="rpss.png" alt=""></div>
+       <p>Rock Paper Scissor</p>
+       <button id="rpsbtn"> play</button>
+    </div>
+<div class="comingsoon"> <h3 style="font-family: helvetica;"> Coming soon...</h3></div></div>
+<script> 
+    let tictac = document.querySelector("#ticbtn");
+    let rps = document.querySelector("#rpsbtn");
+    tictac.addEventListener("click" , ()=> {
+        window.location.href = "./1Index1.html";
+    });
+    rps.addEventListener("click" , ()=> {
+        window.location.href = "./2index2.html";
+    });
+</script> 
+</body>
+</html>

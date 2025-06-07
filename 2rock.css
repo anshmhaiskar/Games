@@ -1,0 +1,102 @@
+* { 
+    margin: 0;
+    padding: 0;
+} 
+h1 { 
+    border: .7vmin double;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    font-size: 5vmin;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    font-family: Cambria;
+    width: 60vmin;
+    height: 10vmin;
+    border-radius: 1vmin;
+    background-color: rgba(234, 129, 49, 0.737);
+}
+body  { 
+    text-align: center;
+    display: flex;
+    background-color: #e455ae;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.section img { 
+    height: 20vmin;
+    width: 20vmin;
+    border-radius:100%;
+    border: 0.8vmin solid rgb(0, 0, 0);
+
+}
+#msg { 
+    margin-top: 10vh;
+   display: inline;
+padding:1vmin 4vmin ;   
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    border: .7vmin double;
+    background-color: rgb(235, 140, 140);
+    font-size: 4vmin;
+    border-radius: 1.5vmin;
+    font-family:  sans-serif;
+}
+img:hover { 
+  scale: 0.9;
+  opacity: .7;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+     
+
+.rps {
+     display: flex; 
+     justify-content: center;
+     gap: 10vmin;
+}
+.score { margin-top: 5vmin;
+     display: flex; 
+     justify-content: center;
+     gap: 15vmin;
+     font-size: 4.5vmin;
+     font-family: sans-serif;
+}
+#usersc, #compsc { 
+    font-size: 6vmin;
+    margin-bottom: 1vmin;
+} 
+.resetbtn { 
+    height: 4vmin;
+    width: 11vmin;
+    margin-top: 2vmin;
+    font-size:3vmin;
+    border-radius: 1vmin;
+    font-family: cambria;
+    background-color: rgb(197, 104, 233);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hide {
+     display: none;
+}
+.home{
+  background-color: #dada19;
+  font-size: 3vmin;
+ padding-top: 1vmin;
+  color: #0e213f;
+  font-weight: 600;
+  font-family: cambria;
+   height:5vmin;
+   width: 12vmin;
+   border-radius: 1vmin;
+   position: absolute;
+   top: 10%;
+   left: 5%;
+}
+.home:hover {
+   opacity: .8;
+}

@@ -1,0 +1,63 @@
+body {
+  margin-top: 0;
+  background-color: rgb(237, 70, 70);
+  text-align: center;
+}
+h1 { 
+    font-size: 7vmin;
+    color: white;
+    font-family: helvetica;
+}
+.container {
+  height: 60vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5vh;
+}
+.rps,
+.tictac,
+.comingsoon {
+  background-color: beige;
+  height: 40vmin;
+  width: 30vmin;
+  font-size: 3vmin;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vmin;
+}
+
+.ticimg img {
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 1vmin;
+  background-color: rgb(79, 145, 202);
+}
+.rpsimg img {
+  height: 15vmin;
+  width: 15vmin;
+  border-radius: 1vmin;
+  background-color: rgb(79, 145, 202);
+}
+button {
+  background-color: wheat;
+  font-size: 3vmin;
+  border-radius: 1vmin;
+
+  width: 8vmin;
+  height: 5vmin;
+}
+.rpsimg:hover,
+.ticimg:hover,
+button:hover {
+  scale: 1.1;
+  transition-duration: 0.2s;
+}
+button:hover {
+  scale: 1.1;
+  background-color: rgb(206, 64, 64);
+  transition-duration: 0.2s;
+}
